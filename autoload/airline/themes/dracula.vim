@@ -9,6 +9,7 @@
 
 let g:airline#themes#dracula#palette = {}
 
+
 " Normal
 let s:N1   = [ '#282a36' , '#bd93f9' , 17  , 141 ]
 let s:N2   = [ '#ffffff' , '#444444' , 231 , 235  ]
@@ -16,7 +17,7 @@ let s:N3 = [ '#282a36' , '#ffffff' , 254, 237 , 'bold' ]
 let g:airline#themes#dracula#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 let g:airline#themes#dracula#palette.normal_modified = {
-      \ 'airline_c': [ '#ffffff' , '#44475a' , 231 , 59 , '' ] ,
+      \ 'airline_c': [ '#ffffff' , '#44475a' , 254 , 237 , '' ] ,
       \ }
 
 " Insert
@@ -24,8 +25,9 @@ let s:I1 = [ '#f8f8f2' , '#ff79c6' , 231 , 2 ]
 let s:I2   = [ '#ffffff' , '#444444' , 231 , 235  ]
 let s:I3 = [ '#282a36' , '#ffffff' , 254, 237 , 'bold' ]
 let g:airline#themes#dracula#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
+
 let g:airline#themes#dracula#palette.insert_modified = {
-      \ 'airline_c': [ '#ffffff' , '#44475a' , 231 , 59 , '' ] ,
+      \ 'airline_c': [ '#ffffff' , '#44475a' , 254 , 237 , 'bold' ] ,
       \ }
 
 " Replace
