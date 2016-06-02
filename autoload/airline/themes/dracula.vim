@@ -49,9 +49,6 @@ let s:IA1 = [ '#282a36' , '#ffffff' , 254, 237 , 'bold' ]
 let s:IA2 = [ '#282a36' , '#ffffff' , 254, 237 , 'bold' ]
 let s:IA3 = [ '#282a36' , '#ffffff' , 254, 237 , 'bold' ]
 let g:airline#themes#dracula#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
-let g:airline#themes#dracula#palette.inactive_modified = {
-      \ 'airline_c': [ '#875faf' , '' , 97 , '' , '' ] ,
-      \ }
 
 " "readonly" warning
 let g:airline#themes#dracula#palette.accents = {
